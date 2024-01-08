@@ -1,13 +1,1 @@
-{
-  "type": "service_account",
-  "project_id": "affable-audio-410209",
-  "private_key_id": "88e2cfafb29924d0d20f57f3fed3b655e60bb89c",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCtJVY2PP7aJzeT\nOvO/2+PjtkAparj3iQRIscAf/A+r3v5jUXtYUtpDNJEHAowrBplnfOnQIIJXHScQ\nif7kRWAQ9wIGwjQ9lKWu/nQDHNZalLYrLNxn9cLwpWPzkL1fd9NnazfGIVZXlEOb\nDrsWwwjBp6Ntjt3vKFGFHjrzpTBX+JeI659fuIK9PgxwG/FN8XwlSMWRyc2YH1/i\ncjcsEsHnn/+2U0wmD1Z5JkNAOfcgwcajXtB52o52Sj4zYzEjEN6TL6IaKmKB8xYR\nHQdsAWjq6fpq4sGneTWP8sOd4YiGO8nXSPEQcIYTQ+vZNUk+0UffVXVbR+UKafMe\nqJNZuwbBAgMBAAECggEADze43AuAWqwXtlj4E2TAIsNh4EIA/8CLH9h/ilAdEH4I\n3bHLpXeit0VnebY/m4h48x+HbUNuMTnetRVr0aRHTTZody+aZ88owLiceamPLWbk\nm+bVeE2hVIU0w7N08W8WpYBG5qMHc6sURgyFZPq/SkXxly93Ug25HHoLtF5QYWrS\nmaP1ndmPPsYgGj/OyOt2IMMs4mNnbNH4DvEZUPhaLAlxu/NkRrl9JRJget6Mgwk4\nj2rqlvKzYTgPgRSV01KwJVnP/qykrE28sjlj1o3UBsQMD0cFXcffca2gSfMXUbJR\nzIOxPfY5XM5OF02fzFO908fmtZjSz8/GS4GMLnm4AQKBgQDuvOFE5Dyz60miYWJc\n2HBY4Nsv05fxeQsph8uiBmZgkRzU81sW6642D7/DZdwMYsJZo0QfBJYc2mOl6eMT\nZf40ikPDnWEZ/aMkzqDKAlab6zwrrJyWtO1s0Fvzi4gamKI9kY2nmq2dt4DXuLYI\nZ4Wz1rbaBI029iq5jWGj0wl5rQKBgQC5qlOhg1ermvXi7gSOYdlbnOdKHi6USgoK\nOYhZUmYyNaP6KpBgJ/1mKiH8a3oIidT0cE4o14VoMLnDQjUkf4n6CHqQmWFP8QFR\n+PhqNxqvo5Y3IPtLcfUm5tSXjqTANEhTb3FuXUBy4/RfQWYMfNOpCF1t8FmYXKpU\nzKlwPHnL5QKBgCY2gXA/gB/kV2LwZ4go9MKlKzBalAWItGqvW77Re22VjKHhWgEv\nNDFfD/i8wx4QaL9kTLESUNzJcA3MhBZEyw2p2/Lhq/s3B/gKQt5SxX4rhvQOqvnM\nd/xk1XMEMILhT4a/V4cuUP/fsXXWEP0DZPlGMvpupBPaDzioEqrgSrH5AoGBAJ/S\npkEvjeVz9FxPZe6m/nNlYpgj2RbfkTryAZRaYQyxriEoSLXtVq1+cVkXr6nv9Dgj\nALUZqYZiA1a5BIQRodVxPQiCcAlfvjIxLq5IFxnAqQt1wbxVMaI2LCT2ro2hs+zW\nzv8hGNyNrAvfgRgY0B7+y2Za8tU8V4e90dGCzZmdAoGBAKaEqIKS80hgJG5FmY/l\neBsqzRY9QbHJD6HES8yV6GOhE2iw3xRHwjk0X+eB2S98kymwoDfl9w08/15zU1iN\njIx5aFpaxJj8W5FPXM/q3WDTyfn0hG1sCB6G1u5we4lstLhxNk4VKFAVFSYKsWqJ\n3O0orAOvT2HdOh+BftmmUql4\n-----END PRIVATE KEY-----\n",
-  "client_email": "sample-terraform@affable-audio-410209.iam.gserviceaccount.com",
-  "client_id": "114990661376948764841",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sample-terraform%40affable-audio-410209.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
-}
+
