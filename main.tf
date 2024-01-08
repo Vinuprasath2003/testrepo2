@@ -1,3 +1,10 @@
+provider "google" {
+    project ="affable-audio-410209"
+    region = "us-central1"
+    zone ="us-central1-a"
+    credentials ="./cred.json"
+}
+
 resource "google_compute_instance" "vm-jenkins" {
   name         = "vm-jenkins"
   machine_type = "e2-medium"
