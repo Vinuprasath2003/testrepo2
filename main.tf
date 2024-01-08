@@ -1,8 +1,11 @@
+variable "gcp_cred" {
+  description = "GCP credentials"
+}
 provider "google" {
     project ="affable-audio-410209"
     region = "us-central1"
     zone ="us-central1-a"
-    credentials ="${file("${var.TF_VAR_gcp_cred}")}"
+    credentials = var.gcp_cred
 }
 
 resource "google_compute_instance" "vm-jenkins" {
