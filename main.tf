@@ -2,7 +2,7 @@ provider "google" {
     project ="affable-audio-410209"
     region = "us-central1"
     zone ="us-central1-a"
-    credentials ="./cred.json"
+    credentials =""
 }
 
 resource "google_compute_instance" "vm-jenkins" {
