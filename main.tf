@@ -1,6 +1,17 @@
 variable "gcp_credentials" {
   description = "GCP credentials"
 }
+variable "VM_NAME" {
+  description = "VM name"
+}
+
+variable "MACHINE_TYPE" {
+  description = "Machine Type"
+}
+
+variable "ZONE" {
+  description = "Zone"
+}
 provider "google" {
     project ="affable-audio-410209"
     region = "us-central1"
@@ -9,9 +20,9 @@ provider "google" {
 }
 
 resource "google_compute_instance" "vm-jenkins" {
-  name         = "vm-jenkins"
-  machine_type = "e2-medium"
-  zone         = "us-central1-a"
+  name         = var.VM_NAME
+  machine_type = var.MACHINE_TYPE
+  zone         = var.ZONE
 
   boot_disk {
     initialize_params {
