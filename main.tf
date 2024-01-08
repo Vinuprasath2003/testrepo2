@@ -1,5 +1,5 @@
-resource "google_compute_instance" "vm-for-terraform" {
-  name         = "vm-terraform"
+resource "google_compute_instance" "vm-jenkins" {
+  name         = "vm-jenkins"
   machine_type = "e2-medium"
   zone         = "us-central1-a"
 
