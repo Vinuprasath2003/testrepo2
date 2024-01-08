@@ -1,4 +1,4 @@
-variable "gcp_cred" {
+variable "gcp_credentials" {
   description = "GCP credentials"
 }
 provider "google" {
