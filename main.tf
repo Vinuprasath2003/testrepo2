@@ -1,15 +1,15 @@
 variable "gcp_credentials" {
   description = "GCP credentials"
 }
-variable "VM_NAME" {
+variable "vm_name" {
   description = "VM name"
 }
 
-variable "MACHINE_TYPE" {
+variable "machine_type" {
   description = "Machine Type"
 }
 
-variable "ZONE" {
+variable "zone" {
   description = "Zone"
 }
 provider "google" {
@@ -20,9 +20,9 @@ provider "google" {
 }
 
 resource "google_compute_instance" "vm-jenkins" {
-  name         = var.VM_NAME
-  machine_type = var.MACHINE_TYPE
-  zone         = var.ZONE
+  name         = var.vm_name
+  machine_type = var.machine_type
+  zone         = var.zone
 
   boot_disk {
     initialize_params {
