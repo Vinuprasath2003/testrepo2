@@ -5,7 +5,7 @@ provider "google" {
     project ="affable-audio-410209"
     region = "us-central1"
     zone ="us-central1-a"
-    credentials = var.gcp_cred
+    credentials = var.GCP_CRED
 }
 
 resource "google_compute_instance" "vm-jenkins" {
